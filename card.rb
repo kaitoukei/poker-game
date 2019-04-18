@@ -1,11 +1,11 @@
 class Card
-    def initialize(mark, number) 
-        @mark = mark
+    def initialize(suit, number) 
+        @suit = suit
         @number = number
-        puts "カードを作成しました　#{@mark} #{@number}"
+        puts "カードを作成しました　#{@suit} #{@number}"
     end
 
     def to_s
-        "#{@mark}#{@number}"
+        "#{@suit}#{@number}"
     end
 end
